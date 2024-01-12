@@ -1,4 +1,5 @@
-#EXTM3U
+#EXTM3U m3uautoload=1 deinterlace=1 #EXTM3U url-tvg="http://epg.it999.ru/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz" catchup="append" catchup-source="&offset=-${offset}&utcstart=${timestamp}" catchup-days="3" cache=1500
+
 #EXTINF:0 tvg-rec="7",Первый канал FHD
 #EXTGRP:Общие
 http://i6puk3bk.tvclub.xyz/iptv/ZXNVYQAW8L6XH7/2402/index.m3u
